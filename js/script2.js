@@ -5,11 +5,11 @@ switchInput.addEventListener('click', function() {
     // Si el switch está seleccionado (en inglés)
     if (switchInput.checked) {
         // Redirigimos al usuario al archivo HTML en inglés
-        window.location.href = 'index_en.html';
+        window.location.href = 'index.html';
     } else {
         // Si el switch no está seleccionado (en español)
         // Redirigimos al usuario al archivo HTML en español
-        window.location.href = 'index.html';
+        window.location.href = 'index_es.html';
     }
 });
 

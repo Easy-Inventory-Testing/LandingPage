@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang = "es">
+<html lang = "en">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="LandingEasyInventory">
+    <meta name="description" content="Landing Page del proyecto EasyInventory !Explora y conocenos">
+    <meta name="keywords" content="Inventario, Electronica, StartUp, Organización, Facilidad ">
+    <meta name="author" content="ArtSoft">
     <title>EasyInventory</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="assets/styles/normalize.css">
@@ -11,13 +15,12 @@
     <script src="js/scrollreveal.js"></script>
 
 
-
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  </head>
 
+  </head>
   <body class = "dark-mode">
 
     <!-- Cabezera-->
@@ -26,22 +29,22 @@
         <img src="assets/images/Logos.png" class = "logo" >
 
         <nav class = "navbar">
-          <a href="#hero">Inicio</a>
-          <a href="#beneficios">Servicios</a>
-          <a href="#precios">Membresia</a>
-          <a href="#contacto">Contactenos</a>
-          <a href="#testimonios">Nosotros</a>
+          <a href="#hero">Home</a>
+          <a href="#beneficios">Services</a>
+          <a href="#precios">Membership</a>
+          <a href="#contacto">Contact Us</a>
+          <a href="#testimonios">Us</a>
           
           
   
-          <a class = "spain" href="#">Español</a>
+          <a class = "spain" href="#">Spanish</a>
 
           <label class="switch" for="language-switch">
-            <input type="checkbox" id="language-switch">
+            <input type="checkbox" id="language-switch" checked>
             <span class="slider"></span>
           </label>
 
-          <a href="#" class = "ingles">Inglés</a>
+          <a href="#" class = "ingles">English</a>
 
           <a href="#" id="dark-mode-button">
             <img src="assets/images/dark-mode.png" alt="Modo Oscuro">
@@ -55,38 +58,37 @@
 
     <!--Hero section-->
     <section id = "hero">
-      <h1 class="principal hero-title">!Tu Almacen al alcanze de tus manos¡<br> Pruebalo ya</h1>
+      <h1 class="principal hero-title">Your Warehouse at your fingertips!<br> Try it now</h1>
       <!--Cambiar link para la app web-->
-      <button onclick="window.location.href='https://www.youtube.com/watch?v=yJK0Ea7yFGQ'">Empieza Ahora</button>
+      <button onclick="window.location.href='https://www.youtube.com/watch?v=yJK0Ea7yFGQ'">Start now</button>
     </section>
     
  <!--Apartado: Servicios-->
     <section id="beneficios" class="benefits">
       <div class="container">
-        <h2>¿Que ofrecemos?</h2>
+        <h2>What we offer?</h2>
         <div class="beneficios">
           <div class="column1">
             <img src="assets/images/servicios1.png " width= "425" height="300" ></img>
-            <p>Gracias a nuestra a aplicacion se te hara mas facil controlar tu Almacen,
-              todo esto por nuetra app web que te permitira agregar productos mas facil,
-              realizar ventas, guardar las compras de tus provedores,realizar busquedas 
-              rapidas en tu inventario. El inventario mas rapido del mercado.
-
+            <p>Thanks to our application it will be easier for you to control your Warehouse,
+              all this through our web app that will allow you to add products more easily,
+              make sales, save purchases from your suppliers, perform searches
+              fast in your inventory. The fastest inventory on the market.
             </p>
           </div>
           <div class="column2">
             <img src="assets/images/variedad_componentes.jpg " width= "425" height="300" ></img>
-            <p>Nuestra aplicacion esta especializada en componentes electronicos, permitiendonos tener
-              mas opciones de personalizacion al agregar los componentes. Esto permitira a nuestro usuarios
-              tener soporte mas personalizado,
+            <p>Our application is specialized in electronic components, allowing us to have
+              more customization options when adding components. This will allow our users
+              have more personalized support.
             </p>
           </div>
           <div class="column3">
             <img src="assets/images/DashBoard.jpg " width= "425" height="300" ></img>
-            <p>Tu propio DashBoard, donde tu puedes ver tu gestion de inventario simplificada,
-               gestiona tus productos recientes mas facil, muestra productos mas relevantes de
-               tu negocio y obten datos relevantes de tus ventas que te ayuden a resaltar en el
-               mercado.
+            <p>Your own DashBoard, where you can see your simplified inventory management,
+              manage your recent products easier, show more relevant products
+              your business and obtain relevant data on your sales that helps you stand out in the
+              market.
             </p>
           </div>
         </div>
@@ -97,29 +99,29 @@
    <!--Apartado: Precios-->    
     <section id = "precios">
       <div class = "container">
-        <h2>¿Quieres tener organizado tu inventario?</h2>
+        <h2>Do you want to have your inventory organized?</h2>
         
         <div class="precios">
           <div class="carta2 flip-effect">
             <div class="contenido">
-              <h3>Plan Gratis</h3>
-              <p>Plan enfocado para que los negocios que quieren probar las capacidades de nuestra app</p>
-              <button>Gratis</button>
+              <h3>Free Plan</h3>
+              <p>Focused plan for businesses that want to test the capabilities of our app</p>
+              <button>Free</button>
             </div>
           </div>
 
           <div class="carta2 flip-effect">
             <div class="contenido">
-              <h3>Plan Intermedio</h3>
-              <p>Plan enfocado en los negocios que manejan una cantidad menor a 1000 productos</p>
+              <h3>Intermediate Plan</h3>
+              <p>Plan focused on businesses that handle less than 1,000 products</p>
               <button>S/. 35.99</button>
             </div>
           </div>
 
           <div class="carta2 flip-effect">
             <div class="contenido">
-              <h3>Plan Plus</h3>
-              <p>Plan enfocado en los negocios que manejan una cantidad mayor a 1000 productos.</p>
+              <h3>Plus Plan</h3>
+              <p>Plan focused on businesses that handle more than 1,000 products.</p>
               <button>S/. 89.99</button>
             </div>
           </div>
@@ -131,79 +133,79 @@
     <!--Apartado: Testimonios-->
     <section id="testimonios" class="testimonios-de-clientes">
       <div class="container">
-        <h2>¿Conoce a nuestro Equipo?</h2>
+        <h2>Do you know our Team?</h2>
 
         <div class="testimonios">
           <div class="carta3 testimonial">
             <div class="image-person">
-              <img src="assets/images/person1.jpeg" alt="Cliente 1">
+              <img src="assets/images/persona.png" >
             </div>
 
             <div class="comentario">
               <h3>Paul Kennedin Vega Sayritupac</h3>
-              <p>Hola mi nombre es Paul Vega, soy estudiante de la carrera 
-                de Ingeniería de Software mis hobbies son jugar videojuegos, 
-                escuchar música y cocinar. Asimismo, los valores que poseo son 
-                responsabilidad, solidaridad, empatía y convicción</p>
+              <p>Hello, my name is Paul Vega, I am a student of the degree
+                of Software Engineering my hobbies are playing video games,
+                listen to music and cook. Likewise, the values ​​I have are
+                responsibility, solidarity, empathy and conviction</p>
             </div>
 
           </div>
 
           <div class="carta3">
             <div class="image-person testimonial">
-              <img src="assets/images/person2.jpeg" alt="Técnico 1">
+              <img src="assets/images/persona.png" >
             </div>
 
             <div class="comentario">
               <h3>Leonardo Taype Fernandez</h3>
               <p class = "rol">Técnico de celulares</p>
-              <p>Hola me llamo Leonardo. Estudio la carrera de ingeniería de software, 
-                siempre me ha gustado interactuar con la computadora y ahora puedo ser 
-                un profesional haciendo lo que me gusta.</p>
+              <p>Hello, my name is Leonardo. I studied software engineering,
+                 I have always liked interacting with the computer and now I can be
+                 a professional doing what I like.</p>
             </div>
 
           </div>
 
           <div class="carta3 testimonial">
             <div class="image-person">
-              <img src="assets/images/person3.jpeg" alt="Cliente 2">
+              <img src="assets/images/persona.png" >
             </div>
 
             <div class="comentario">
               <h3>Fabiola Dayane Becerra Llempen</h3>
-              <p>Hola mi nombre es Fabiola Becerra. Estudio la carrera de ingenería
-                 de software, me guta mucho estar en la computadora investigando 
-                 cosas nuevas.</p>
+              <p>Hello, my name is Fabiola Becerra. I study an engineering degree
+                of software, I really like being on the computer researching
+                new stuff.</p>
             </div>
 
           </div>
 
           <div class="carta3 testimonial">
             <div class="image-person">
-              <img src="assets/images/person4.jpeg" alt="Técnico 2">
+              <img src="assets/images/persona.png" >
             </div>
 
             <div class="comentario">
               <h3>Brayan Smith Morales Quispe</h3>
-              <p>Soy Brayan Smith tengo 20 años curso el 5to ciclo de la carrera 
-                de Ingenieria de Sotware escogi esta carrera porque me gusta los 
-                videojuego y el desarrollo de aplicaciones</p>
+              <p>I'm Brayan Smith, I'm 20 years old and I'm in the 5th cycle of my degree.
+                of Software Engineering I chose this career because I like
+                video game and application development</p>
             </div>
 
           </div>
 
           <div class="carta3 testimonial">
             <div class="image-person">
-              <img src="assets/images/person5.jpeg" alt="Cliente 3">
+              <img src="assets/images/persona.png">
             </div>
 
             <div class="comentario">
               <h3>Piero Miranda</h3>
               
-              <p>Actualmente estoy llevando la carrera de Ingeniería 
-                de Software. Considero que soy una persona responsable 
-                y que puedo aportar al equipo en cualquier aspecto que 
-                se requiera</p>
+              <p>I am currently pursuing an Engineering degree.
+                of software. I consider that I am a responsible person
+                and that I can contribute to the team in any aspect that
+                is required</p>
             </div>
 
           </div>
@@ -216,8 +218,8 @@
     <section id="contacto" class="contactanos" class="animated">
       <div class="container contact-info">
         <div class="title-container">
-          <h2>Contáctanos</h2>
-          <p>Rellena el formulario con tus datos, email y lo que quieres decirnos.</p>
+          <h2>Contact us</h2>
+          <p>Fill out the form with your information, email and what you want to tell us.</p>
         </div>
         
 
@@ -227,13 +229,13 @@
             <form action="" class="form">
               <label> <h1>EasyInventory</h1> </label>
 
-              <label for="name" class="form-label">Nombre</label>
+              <label for="name" class="form-label">Name</label>
               <input type="text" id="name" class="form-input">
 
-              <label for="email" class="form-label">Correo Electrónico</label>
+              <label for="email" class="form-label">Email</label>
               <input type="text" id="email" class="form-input">
 
-              <label for="description" class="form-label">¿Cuéntanos como podemos ayudarte?</label>
+              <label for="description" class="form-label">Tell us how we can help you?</label>
               <textarea  id="description" class="form-textarea"></textarea>
 
               <input type="submit" class="btn-submit" value="Enviar">
@@ -288,11 +290,11 @@
 
       <div class="column3">
         <ul class="options">
-          <li class="nav-item"><a href="#hero" class="nav-link">Inicio</a></li>
-          <li class="nav-item"><a href="#beneficios" class="nav-link">Beneficios</a></li>
-          <li class="nav-item"><a href="#precios" class="nav-link">Precios</a></li>
-          <li class="nav-item"><a href="#testimonios" class="nav-link">Conocenos</a></li>
-          <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+          <li class="nav-item"><a href="#hero" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#beneficios" class="nav-link">Benefits</a></li>
+          <li class="nav-item"><a href="#precios" class="nav-link">Membership</a></li>
+          <li class="nav-item"><a href="#testimonios" class="nav-link">Us</a></li>
+          <li class="nav-item"><a href="#contacto" class="nav-link">Contact Us</a></li>
           
         </ul>
 
@@ -300,7 +302,7 @@
 
 
       <div class="column4">
-        <div class = "title">Redes sociales</div>
+        <div class = "title">Social networks</div>
                   
         <ul class="nets">
           <li class="facebook">
@@ -318,7 +320,7 @@
       </div>
 
       <div class="column4">
-        <div class="title">App Móvil</div>
+        <div class="title">Mobile App</div>
           <ul class="download-footer">
             <li class="app-store">
               <a href="https://www.apple.com/la/app-store/" rel="noopener noreferrer"><img src="assets/images/app-store.png" alt=""></a>
@@ -338,5 +340,3 @@
     <script src="js/index.js"></script>
   </body>
 </html>
-
-    
