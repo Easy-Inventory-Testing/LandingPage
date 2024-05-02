@@ -1,6 +1,9 @@
 
 /*VERSION MOBILES*/
-
+p{
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+}
 *{
   box-sizing: border-box;
 }
@@ -67,7 +70,8 @@ button:active {
 
 .container {
   max-width: 1400px;
-  margin:auto;
+  height: auto;
+  padding: 0;
 }
 
 header{background-color: rgb(42,95,180);}
@@ -903,12 +907,14 @@ se aplicarán los siguientes cambios.*/
    /*Beneficios*/
   #beneficios .beneficios {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
   }
   
   #beneficios p {
     display: block;
+    font-size: 1.1em;
     margin-bottom: 30px;
+    margin-top: 20px;
   }
   
   #beneficios h2 {
@@ -964,7 +970,7 @@ se aplicarán los siguientes cambios.*/
   }
 
   #precios .container{
-    padding: 400px 0 12px 12px
+    padding: 30px 0 12px 12px
   }
     
   #precios .carta2 {
@@ -1108,6 +1114,8 @@ se aplicarán los siguientes cambios.*/
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: auto;
     text-align: center;
   }
 
@@ -1123,8 +1131,8 @@ se aplicarán los siguientes cambios.*/
   }
 
   #testimonios .carta3 {
-    flex-basis: 400px;
-    background-color: rgba(110,128,255);
+    flex-basis: 600px;
+    color: black;
     padding: 20px;
     border-radius: 10px;
   }
@@ -1151,6 +1159,7 @@ se aplicarán los siguientes cambios.*/
 
   #testimonios .comentario p {
     margin-bottom: 10px;
+    color: black;
   }
 
 
